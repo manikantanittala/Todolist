@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D To-Do List with Animated Background</title>
+    <link rel="stylesheet" href="cla2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-animation" id="bgAnimation"></div>
+    <div class="theme-toggle" id="themeToggle">🌓</div>
+    <div class="container">
+        <h1>✨ 3D To-Do List</h1>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <button id="addTaskBtn">+</button>
+        </div>
+        <ul id="taskList"></ul>
+        <div class="task-stats">
+            <span id="taskCount">0 tasks</span>
+            <button id="clearCompletedBtn">Clear Completed</button>
+        </div>
+    </div>
+    <script src="cla2.js"></script>
+</body>
+</html>
